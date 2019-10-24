@@ -20,10 +20,10 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   new_data = {}
   data.each { |theme, value|
-    new_data[value.values[0]] = {
-      color: theme.values[0][:color],
-      gender: theme.values[0][:gender],
-      lives: theme.values[0][:lives]
+    new_data[value.values] = {
+      color: theme.values[:color],
+      gender: theme.values[:gender],
+      lives: theme.values[:lives]
     }
   }
   new_data
