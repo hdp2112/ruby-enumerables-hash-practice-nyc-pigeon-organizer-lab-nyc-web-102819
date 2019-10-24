@@ -19,7 +19,13 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
   new_data = {}
-  data.each { |theme, value|
+  data.each do |key, value|
+    value.each do |subvalue, name|
+      name.each do |name|
+        if !new_value[name]
+      end
+    end
+  end
     new_data[value.values] = {
       color: theme.values[:color],
       gender: theme.values[:gender],
