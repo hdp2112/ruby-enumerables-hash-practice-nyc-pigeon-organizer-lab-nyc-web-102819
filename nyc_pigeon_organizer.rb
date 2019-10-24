@@ -17,7 +17,7 @@ pigeon_data = {
   }
 }
 
-p pigeon_data[:color][:purple][0]
+p pigeon_data[:color][:purple][1]
 
 def nyc_pigeon_organizer(data)
 end
