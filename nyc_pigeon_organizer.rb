@@ -23,12 +23,10 @@ def nyc_pigeon_organizer(data)
     value.each do |subkey, name|
       name.each do |name|
         if !new_data[name]
-          new_data[name] = {
-            color: value[:color],
-            gender: value[:gender],
-            lives: value[:lives],
-          }
+          new_data[name] = {}
         end
+        
+        if 
       end
     end
   end
