@@ -32,11 +32,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-    new_data[value.values] = {
-      color: theme.values[:color],
-      gender: theme.values[:gender],
-      lives: theme.values[:lives]
-    }
-  }
   new_data
 end
