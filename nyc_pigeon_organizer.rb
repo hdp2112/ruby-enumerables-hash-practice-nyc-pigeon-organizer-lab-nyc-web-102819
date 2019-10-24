@@ -20,7 +20,7 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   new_data = {}
   data.each do |key, value|
-    value.each do |subvalue, name|
+    value.each do |subkey, name|
       name.each do |name|
         if !new_value[name]
       end
