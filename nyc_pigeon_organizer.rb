@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
           new_data[name][key] = []
         end
         
-        new_data[name][key] << new
+        new_data[name][key] << subkey
       end
     end
   end
