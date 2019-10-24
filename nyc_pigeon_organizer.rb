@@ -18,4 +18,8 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(pigeon_data)
+  new_data = {}
+  pigeon_data.each do |theme, (key, value)| {
+    
+  }
 end
