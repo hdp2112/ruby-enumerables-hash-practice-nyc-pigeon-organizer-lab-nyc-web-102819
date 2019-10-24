@@ -17,9 +17,9 @@ pigeon_data = {
   }
 }
 
-def nyc_pigeon_organizer(pigeon_data)
+def nyc_pigeon_organizer(data)
   new_data = {}
-  pigeon_data.each { |theme, (key, value)|
+  data.each { |themes, values)|
     new_data["#{value[0]}"] = {
       color: pigeon_data.key[0][:color],
       gender: pigeon_data.key[0][:gender],
