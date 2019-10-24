@@ -26,7 +26,9 @@ def nyc_pigeon_organizer(data)
           new_data[name] = {}
         end
         
-        if 
+        if !new_data[name][key]
+          new_data[name][key] = []
+        end
       end
     end
   end
